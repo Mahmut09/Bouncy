@@ -954,6 +954,83 @@ body {
     -ms-flex: 1;
     flex: 1;
   }
+  .our-services-skills{
+    margin-top: 55px;
+  }
+  .our-services-skills p{
+    width: 67px;
+    height: 16px;
+    color: #81868e;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    position: relative;
+    bottom: 14px;
+    left: 40px;
+  }
+  .pie {
+    display: inline-block;
+    margin: .5em;
+    width: 8em;
+    height: 8em;
+    position: relative;
+    border-radius: 50%;
+    margin-right: 40px
+  }
+  .pie:last-child{
+    margin-right: 0px
+  }
+  .pie:after {
+    border-radius: 50%;
+    display: block;
+    content: "";
+    background: #f3f3f3;
+    position: absolute;
+    left: .5em;
+    top: .5em;
+    height: 7em;
+    width: 7em;
+  }
+  .p1 {
+    background-image:
+    linear-gradient(-30deg, #19bd9a 50%, transparent 50%),
+    linear-gradient(90deg, #19bd9a 50%, #047378 50%);
+  }
+  .p1 p{
+    font-size: 25px;
+    z-index: 100;
+    padding-top: 2.7em;
+  }
+  .p2 p{
+    font-size: 25px;
+    z-index: 100;
+    padding-top: 2.7em;
+  }
+  .p3 p{
+    font-size: 25px;
+    z-index: 100;
+    padding-top: 2.7em;
+  }
+  .skillText{
+    position: relative;
+    width: 41px;
+    height: 18px;
+    color: #81868e;
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    bottom: 26%;
+    left: 8%;   
+  }
+  .p2 {
+    background-image: linear-gradient(90deg, #19bd9a 50%, #047378 50%);
+  }
+  .p3 {
+    background-image: linear-gradient(150deg, transparent 50%, #047378 50%),
+                      linear-gradient(90deg, #19bd9a 50%, #047378 50%);
+  }
 
   .our-services-menu .otv,
   .our-services-menu .roller,
